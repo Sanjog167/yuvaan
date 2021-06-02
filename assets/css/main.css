@@ -2378,7 +2378,7 @@ background: transparent linear-gradient(281deg, #58558A 0%, #A13265 100%) 0% 0% 
 box-shadow: 0px 3px 10px #A1326569;
 border-radius: 7px;
 opacity: 1;
-font-size: 20px;
+font-size: 16px;
 color: white!important;
 padding: 10px 32px;
 }
@@ -2449,7 +2449,7 @@ place-items: center;
   background: transparent url('../img/Rectangle\ 18.svg') 0% 0% no-repeat padding-box;
   opacity: 0.85;
   border-radius: 7px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   color: #e77a73;
   border: 1px solid #e77a73;
@@ -3055,7 +3055,7 @@ opacity: 1;
 
 
 .joinus{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   color: white;
   background: transparent linear-gradient(281deg, #E77A73 0%, #FCAD8E 100%);
@@ -3065,7 +3065,7 @@ opacity: 1;
 }
 
 .campbtn{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   color: #e77a73;
   border: 1px solid #e77a73;
@@ -3081,7 +3081,6 @@ opacity: 1;
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #f6f6f6;
 }
 
 .eleventh .campaigns_title h3{
@@ -3093,8 +3092,9 @@ opacity: 1;
 }
 
 .eleventh .camp1{
-  background-color: #fbf7f5;
+  background-color: white;
   padding-bottom: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .eleventh .camp_title{
@@ -3108,7 +3108,7 @@ opacity: 1;
 
 .twelveth{
     /* margin-top: -60px; */
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4027,4 +4027,22 @@ width: 10%;
 
 .guartop h3{
   color: white;
+}
+
+.eleventh .three_camps{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.eleventh .campaigns_para{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.trendingin .camp1{
+  background: url(../img/Rectangle\ 30.svg);
+  opacity: 100%;
+  backdrop-filter: unset;
 }
