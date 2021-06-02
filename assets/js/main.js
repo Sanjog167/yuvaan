@@ -44,9 +44,9 @@
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
     if (scroll < 200) {
-      $(".main-header-area").removeClass("sticky");
+      $(".header_bottom").removeClass("sticky");
     } else {
-      $(".main-header-area").addClass("sticky");
+      $(".header_bottom").addClass("sticky");
     }
   });
 
