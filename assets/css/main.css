@@ -3958,7 +3958,7 @@ padding-bottom: 4px;
 
 .anotherblue{
   background-color: #0477BF;
-  padding: 32px 0 10px 0px;
+  padding: 32px 0 30px 0px;
 }
 
 .supportpara p{
@@ -5558,6 +5558,16 @@ opacity: 1;
   transition: 200ms ease-out;
 }
 
+
+.moredonate a{
+  transition: 200ms ease-out;
+}
+
+.moredonate a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
 .donate_comments a:hover{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
@@ -5612,5 +5622,129 @@ opacity: 1;
     padding-top: 4px;
     padding-bottom: 4px;
 }
+}
+
+.share1 i{
+  margin-right: 10px;
+  font-size: 15px;
+  color: white;
+  background: var(--goldgradient);
+  padding: 13px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.detail_page{
+  position: relative;
+  z-index: 1;
+}
+
+.detail_page::after{
+  position: absolute;
+  content: '';
+  top: 12%;
+  left: 0;
+  width: 100%;
+  height: 22%;
+  background-color: #e2e2e2;
+  z-index: -1;
+}
+
+
+@media (min-width:1600px){
+  .detail_page::after{
+    position: absolute;
+    content: '';
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 26%;
+    background-color: #e2e2e2;
+    z-index: -1;
+  }
+
+  .midcovid{
+    margin-top: 150px;
+  }
+
+  .rightcovid{
+    position: sticky;
+    top: 0;
+    height: 100%;
+  }
   
+}
+
+.campprogress{
+  position: relative;
+}
+
+.camptooltip{
+  position: absolute;
+  top: -35px;
+  left: 45.5%;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camptooltip p{
+  color: var(--paracolor);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 40px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.camptoolarrow{
+  position: absolute;
+  top: -20px;
+  left: 49%;
+  /* background-color: white; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camptoolarrow i{
+  color: white;
+}
+
+.termsdonate{
+  margin-left: 22px;
+}
+
+.yuvaanguarantee i{
+  font-size: 50px;
+  color: white;
+  transform: rotate(-90deg);
+}
+
+.donate_flag p{
+  text-decoration: underline;
+}
+
+.flag1 i{
+  background: var(--goldgradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: rotate(-90deg);
+  margin-right: 14px;
+  margin-top: 14px;
+  font-size: 26px!important;
+}
+
+.share3{
+  width: 16%;
 }
