@@ -43,7 +43,7 @@
   //sticky-menu
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
-    if (scroll < 400) {
+    if (scroll < 500) {
       $(".header_bottom").removeClass("sticky");
     } else {
       $(".header_bottom").addClass("sticky");

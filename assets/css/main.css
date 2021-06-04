@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
@@ -5520,4 +5519,98 @@ opacity: 1;
 .footer_right a:hover{
   background: var(--goldgradient);
   color: white;
+}
+
+.gethelp_four a{
+  transition: 200ms ease-out;
+}
+
+.gethelp_four a:hover{
+  background: var(--goldgradient);
+  color: white;
+}
+
+.share3 a{
+  transition: 200ms ease-out;
+}
+
+.share3 a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.covid_buttons a{
+  transition: 200ms ease-out;
+}
+
+.covid_buttons a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pleasedonate a{
+  transition: 200ms ease-out;
+}
+
+.pleasedonate a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.donate_comments a{
+  transition: 200ms ease-out;
+}
+
+.donate_comments a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.customerhappiness a{
+  transition: 200ms ease-out;
+}
+
+.customerhappiness a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.registersection button{
+  transition: 200ms ease-out;
+}
+
+.registersection button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.signinlink a{
+  transition: 300ms ease-out;
+}
+
+.signinlink a:hover{
+  background: var(--goldgradient);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 7px;
+}
+
+@media(max-width:1395px){
+  .second_section{
+    margin-top: -95px;
+  }
+  .dotted_path{
+    position: absolute;
+    left: 20%;
+  }
+
+  .gethelp_four a {
+    margin-right: 60px;
+    color: #e77a73;
+    box-shadow: 0px 3px 10px #a1326569;
+    border: 1px solid #FCAD8E;
+    border-radius: 7px;
+    opacity: 1;
+    width: 14%;
+    font-size: 17px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+  
 }
