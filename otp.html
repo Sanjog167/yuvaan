@@ -25,6 +25,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -42,23 +43,9 @@
           </li>
           <li>
             <a href="#">About Us</a>
-            <ul class="submenu">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Tech Ratings</a></li>
-              <li><a href="#">University</a></li>
-              <li><a href="#">Aquathin Classic</a></li>
-              <li><a href="#">Letters of Delight</a></li>
-            </ul>
           </li>
           <li>
             <a href="#">Products</a>
-            <ul class="submenu">
-              <li><a href="#">Residential Products</a></li>
-              <li><a href="#">Commercial Products</a></li>
-              <li><a href="#">Industrial Products</a></li>
-              <li><a href="#">Air Purifiers Products</a></li>
-              <li><a href="#">Fridge Filters Products</a></li>
-            </ul>
           </li>
           <li>
             <a href="#">Our Services</a>
@@ -120,8 +107,16 @@
             <a href="#">Let's yuvaan</a>
           </li>
         </div>
+        <div class="hamburger-menu d-md-block d-lg-none">
+          <a href="">
+          <img src="assets/img/menu.svg">
+          <span>Menu</span>
+          </a>
+        </div>
       </div>
     </div>
+
+    
 
     <div class="container">
     <div class="breadcrumb">
@@ -133,7 +128,7 @@
       <div class="banner_content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7" style="margin: auto;">
+                <div class="col-lg-7" data-aos="fade-right" style="margin: auto;">
                   
                   <p class="banner_title">Hi. welcome to <span>yuvaan!</span></p>
                   <p class="banner_para">
@@ -146,7 +141,7 @@
 
 
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="fade-left">
                  <div class="register_first">
                      <div class="register_title">
                          <h3>OTP</h3>
@@ -181,7 +176,7 @@
       </div>
     </div>
 
-    <div class="gethelpsection">
+    <div class="gethelpsection" data-aos="fade-up">
         <div class="gethelp_title">
             <h3>Whatever your need, you can get help on <span>yuvaan</span></h3>
         </div>
@@ -193,39 +188,35 @@
         </div>
     </div>
 
-    <div class="eighth">
-        <div class="sixthpath">
-          <img src="assets/img/Path 40.svg" />
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <div class="donate_content">
-              <h3>Best Place To Donate Your Valuable Money</h3>
-              <div class="harry_para">
-                <p>
-                  Yuvan the best place to fundraise, whether you are an
-                  individual, group, or organization. Yuvan builds into a global
-                  movement and international activists all over the world.
-                </p>
-              </div>
-              <div class="banner_buttons">
-                <li class="yuvanbtn">
-                  <a href="#">Let's yuvaan</a>
-                </li>
-                <li class="nextbtn">
-                  <a href="#">Learn More</a>
-                </li>
-              </div>
+  
+    <div class="eighth" data-aos="fade-up">
+      <div class="sixthpath">
+        <img src="assets/img/Path 40.svg" />
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <div class="donate_content">
+            <h3>Best Place To Donate Your Valuable Money</h3>
+            <div class="harry_para">
+              <p>
+                Yuvan the best place to fundraise, whether you are an
+                individual, group, or organization. Yuvan builds into a global
+                movement and international activists all over the world.
+              </p>
+            </div>
+            <div class="banner_buttons">
+              <a href="#">Let's yuvaan</a>
+              <a href="#">Explore Campaigns</a>
             </div>
           </div>
-          <div class="col-lg-6 harry">
-            <img src="assets/img/Rectangle 43.png" />
-          </div>
+        </div>
+        <div class="col-lg-6 harry">
+          <img src="assets/img/Rectangle 43.png" />
         </div>
       </div>
-
+    </div>
     
-    <div class="trendingin">
+    <div class="trendingin" data-aos="fade-up">
         <div class="trendingtitle">
             <h3>Trending in medical fundraising</h3>
         </div>
@@ -495,176 +486,189 @@
         </div>
     </div>
 
-    <div class="customerhappiness">
+    <div class="customerhappiness" data-aos="fade-up">
         <h3>Our Customer Happiness team is ready to answer your questions — 24/7</h3>
         <a href="#">Learn More</a>
     </div>
 
     <div class="second_section fundfor">
-        <div class="container">
-            <div class="trendingtitle">
-                <h3>Fundraiser For</h3>
-            </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="section1">
-                <img src="assets/img/child.jpeg" />
-                <div class="inner_section">
-                  <a href="#">Education</a>
-                </div>
+      <div class="container">
+        <div class="trendingtitle">
+          <h3>Fundraiser For</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="section1">
+              <img src="assets/img/child.jpeg" />
+              <div class="inner_section">
+                <a href="#">Education</a>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="section1">
-                <img src="assets/img/child.jpeg" />
-                <div class="inner_section">
-                  <a href="#">Innovation</a>
-                </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="section1">
+              <img src="assets/img/child.jpeg" />
+              <div class="inner_section">
+                <a href="#">Innovation</a>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="section1">
-                <img src="assets/img/child.jpeg" />
-                <div class="inner_section">
-                  <a href="#">Charity</a>
-                </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="section1">
+              <img src="assets/img/child.jpeg" />
+              <div class="inner_section">
+                <a href="#">Charity</a>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="section1">
-                <img src="assets/img/child.jpeg" />
-                <div class="inner_section">
-                  <a href="#">Medical</a>
-                </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="section1">
+              <img src="assets/img/child.jpeg" />
+              <div class="inner_section">
+                <a href="#">Medical</a>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="section1">
-                <img src="assets/img/child.jpeg" />
-                <div class="inner_section">
-                  <a href="#">Emergency</a>
-                </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="section1">
+              <img src="assets/img/child.jpeg" />
+              <div class="inner_section">
+                <a href="#">Emergency</a>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="section1">
-                <img src="assets/img/child.jpeg" />
-                <div class="inner_section">
-                  <a href="#">Volunteer</a>
-                </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="section1">
+              <img src="assets/img/child.jpeg" />
+              <div class="inner_section">
+                <a href="#">Volunteer</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   
 
-      <div class="twelveth">
-        <div class="container">
-            <div class="campaigns_title">
-              <h3>The leader in online fundraising</h3>
-            </div>
-            <div class="leaders">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="funding">
-                    <div class="funding_img">
-                      <img src="assets/img/Ellipse 4.png" />
-                    </div>
-                    <div class="funding_content">
-                      <h3>World Wide Leader</h3>
-                      <div class="funding_para">
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+ 
+    <div class="twelveth">
+      <div class="container">
+        <div class="campaigns_title">
+          <h3>The leader in online fundraising</h3>
+        </div>
+        <div class="leaders">
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-up">
+              <div class="funding">
+                <div class="funding_img">
+                  <img src="assets/img/Ellipse 4.png" />
                 </div>
-                <div class="col-lg-4">
-                  <div class="funding">
-                    <div class="funding_img">
-                      <img src="assets/img/Ellipse 4.png" />
-                    </div>
-                    <div class="funding_content">
-                      <h3>World Wide Leader</h3>
-                      <div class="funding_para">
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="funding">
-                    <div class="funding_img">
-                      <img src="assets/img/Ellipse 4.png" />
-                    </div>
-                    <div class="funding_content">
-                      <h3>World Wide Leader</h3>
-                      <div class="funding_para">
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="funding">
-                    <div class="funding_img">
-                      <img src="assets/img/Ellipse 4.png" />
-                    </div>
-                    <div class="funding_content">
-                      <h3>World Wide Leader</h3>
-                      <div class="funding_para">
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="funding">
-                    <div class="funding_img">
-                      <img src="assets/img/Ellipse 4.png" />
-                    </div>
-                    <div class="funding_content">
-                      <h3>World Wide Leader</h3>
-                      <div class="funding_para">
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="funding">
-                    <div class="funding_img">
-                      <img src="assets/img/Ellipse 4.png" />
-                    </div>
-                    <div class="funding_content">
-                      <h3>World Wide Leader</h3>
-                      <div class="funding_para">
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                      </div>
-                    </div>
+                <div class="funding_content">
+                  <h3>World Wide Leader</h3>
+                  <div class="funding_para">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.Lorem Ipsum is simply dummy text of
+                      the printing and typesetting industry.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="leaderbtn">
-              <div class="yuvanbtn">
-                <a href="#">Let's yuvaan</a>
+            <div class="col-lg-4" data-aos="fade-up">
+              <div class="funding">
+                <div class="funding_img">
+                  <img src="assets/img/Ellipse 4.png" />
+                </div>
+                <div class="funding_content">
+                  <h3>World Wide Leader</h3>
+                  <div class="funding_para">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.Lorem Ipsum is simply dummy text of
+                      the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="col-lg-4" data-aos="fade-up">
+              <div class="funding">
+                <div class="funding_img">
+                  <img src="assets/img/Ellipse 4.png" />
+                </div>
+                <div class="funding_content">
+                  <h3>World Wide Leader</h3>
+                  <div class="funding_para">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.Lorem Ipsum is simply dummy text of
+                      the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="funding">
+                <div class="funding_img">
+                  <img src="assets/img/Ellipse 4.png" />
+                </div>
+                <div class="funding_content">
+                  <h3>World Wide Leader</h3>
+                  <div class="funding_para">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.Lorem Ipsum is simply dummy text of
+                      the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="funding">
+                <div class="funding_img">
+                  <img src="assets/img/Ellipse 4.png" />
+                </div>
+                <div class="funding_content">
+                  <h3>World Wide Leader</h3>
+                  <div class="funding_para">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.Lorem Ipsum is simply dummy text of
+                      the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="funding">
+                <div class="funding_img">
+                  <img src="assets/img/Ellipse 4.png" />
+                </div>
+                <div class="funding_content">
+                  <h3>World Wide Leader</h3>
+                  <div class="funding_para">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.Lorem Ipsum is simply dummy text of
+                      the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="leaderbtn">
+          <div class="yuvanbtn">
+            <a href="#">Let's yuvaan</a>
+          </div>
         </div>
       </div>
+    </div>
 
 
 
@@ -760,6 +764,7 @@
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
       var swiper = new Swiper(".secondswiper", {
@@ -774,5 +779,8 @@
         autoplay: true
       });
     </script>
+        <script>
+          AOS.init();
+        </script>
   </body>
 </html>
